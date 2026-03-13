@@ -103,3 +103,33 @@ body, html {
     right: 0;
     top: 0;
 }
+
+@media (max-width: 768px) {
+    .text-overlay h1 {
+        font-size: 3.5rem;
+    }
+
+    .text-overlay p {
+        font-size: 1.2rem;
+    }
+
+    .floating-img {
+        width: 110px;
+        height: 110px;
+        opacity: 0.5;
+    }
+    .clicker {
+        font-size: 1rem;
+        padding: 10px 20px;
+        top: 15px;
+        right: 15px;
+    }
+
+    .img-1 { top: 15%; left: -5%; }
+    .img-2 { bottom: 10%; left: 5%; }
+    .img-3 { top: 25%; right: -5%; }
+    .img-4 { bottom: 25%; left: -5%; }
+    .img-5 { top: 5%; left: 40%; }
+    .img-6 { bottom: 20%; right: 5%; }
+    .img-7 { bottom: 5%; right: 30%; }
+}
