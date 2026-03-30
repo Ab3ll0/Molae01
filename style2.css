@@ -15,12 +15,11 @@ body, html {
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     z-index: 1;
-    opacity: 0.8;
 }
 
 .img-1 {
     top: 10%;
-    left: 10%;
+    left: 05%;
     animation-duration: 7s;
     transform: rotate(-10deg);
 }
@@ -43,21 +42,44 @@ body, html {
 
 
 .img-5 {
-    bottom: 60%;
+    bottom: 50%;
     left: 40%;
-    transform: rotate(25deg);
 }
 
 .img-6 {
-    bottom: 10%;
-    right: 10%;
+    bottom: 05%;
+    right: 05%;
     transform: rotate(15deg);
 }
 
 .img-7 {
     bottom: 10%;
-    right: 40%;
+    right: 43%;
     transform: rotate(15deg);
+}
+
+.img-8 {
+    top: 15%;
+    right: 0%;
+    transform: rotate(-30deg);
+}
+
+.img-9 {
+    top: 02%;
+    right: 30%;
+    transform: rotate(10deg);
+}
+
+.img-10 {
+    top: 10%;
+    left: 22%;
+    transform: rotate(15deg);
+}
+
+.img-11 {
+    bottom: 10%;
+    right: 23%;
+    transform: rotate(10deg);
 }
 
 
@@ -106,6 +128,21 @@ body, html {
 
 @media (max-width: 1024px) {
     .text-overlay h1 {
+        font-size: 4.5rem;
+    }
+
+    .text-overlay p {
+        font-size: 1.5rem;
+    }
+
+    .floating-img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-overlay h1 {
         font-size: 3.5rem;
     }
 
@@ -128,8 +165,12 @@ body, html {
     .img-1 { top: 15%; left: -5%; }
     .img-2 { bottom: 10%; left: 5%; }
     .img-3 { top: 25%; right: -5%; }
-    .img-4 { bottom: 35%; left: -5%; }
-    .img-5 { top: 15%; left: 40%; }
+    .img-4 { bottom: 25%; left: -5%; }
+    .img-5 { top: 5%; left: 40%; }
     .img-6 { bottom: 20%; right: 5%; }
     .img-7 { bottom: 5%; right: 30%; }
+    .img-8 { top: 20%; left: -5%; }
+    .img-9 { bottom: 5%; left: 40%; }
+    .img-10 { top: 30%; right: -5%; }
+    .img-11 { top: 50%; right: 50%; }
 }
