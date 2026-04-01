@@ -169,8 +169,8 @@ body, html {
     .img-5 { top: 5%; left: 40%; }
     .img-6 { bottom: 20%; right: 5%; }
     .img-7 { bottom: 5%; right: 30%; }
-    .img-8 { top: 20%; left: -5%; }
-    .img-9 { bottom: 5%; left: 40%; }
+    .img-8 { top: 0%; left: -5%; }
+    .img-9 { bottom: 5%; left: 70%; }
     .img-10 { top: 30%; right: -5%; }
     .img-11 { top: 50%; right: 50%; }
 }
